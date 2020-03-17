@@ -36,15 +36,12 @@ namespace simplepeople
     class Program
     {
         static void Main(string[] args)
-        {
-            Console.WriteLine("welcome");
+        {      
             People yang = new People("yang",20);
             People anotherPeople = new People("another", 20);
-            yang.ShowInfo();
             yang.SayHello();
             yang.SayHello(anotherPeople);
             Console.ReadKey();
-
         }
     }
 }
